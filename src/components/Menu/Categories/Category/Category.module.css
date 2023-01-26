@@ -1,0 +1,24 @@
+.item{
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+    background-color: #E9F8FB;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item:hover {
+    background-color:#FE8C01;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+.item:hover img{
+    fill: white;
+    color: white;
+    transition: 0.3s ease-in-out;
+}image{
+    margin-bottom: 12px;
+}

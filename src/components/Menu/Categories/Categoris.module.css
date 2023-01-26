@@ -1,0 +1,11 @@
+.categories{
+    margin-top:60px;
+}
+.wrapper{
+    margin: 0  auto;
+    width: 1660px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:30px;
+}
+

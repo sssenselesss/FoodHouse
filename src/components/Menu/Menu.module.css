@@ -1,0 +1,23 @@
+.menu{
+    margin-top: 150px;
+}
+.MenuTitle{
+    text-align: center;
+    font-size: 64px !important;
+    font-weight: 700;
+}
+.line{
+    height: 8px;
+    border-radius: 50px;
+    width: 280px;
+    background-color: #FE8C01;
+    margin: 0 auto;
+}
+.wrapper{
+    margin:  0  auto;
+    width: 1660px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

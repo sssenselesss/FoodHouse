@@ -1,0 +1,67 @@
+.MainBanner{
+    margin-top:106px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1660px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.BannerLeftSide{
+    display: flex;
+    flex-direction: column;
+    width: 820px;
+}
+.delivery{
+    font-size: 24px;
+    color: #FE8C01;
+    font-weight: 500;
+    
+}
+.accent{
+    color: #FE8C01;
+}
+.title{
+    font-size: 155px;
+    font-weight: 800; 
+    margin-top: 20px
+}
+.subTitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #232323;
+    margin-top: 30px;
+}
+.bannerBtn{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin-top: 35px;
+}
+.button{
+    padding: 18px 80px;
+    background-color: #FE8C01;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+.btnDiscription{
+    font-size: 18px;
+    font-weight: 500;
+    color: #c4c4c4;
+    width: 228px;
+    line-height: 22px;
+}
+.BannerrightSide{
+    width: 640px;
+    height: 640px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
