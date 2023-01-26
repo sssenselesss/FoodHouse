@@ -3,12 +3,12 @@ import Category from "./Category/Category";
 
 
 const initialState = [
-  { id: 1, image: "./public/icons/catItem.svg", name: "Салаты" },
-  { id: 2, image: "./public/icons/burger.svg", name: "Напитки" },
-  { id: 3, image: "./public/icons/pizza.svg", name: "Бургеры" },
-  { id: 4, image: "./public/icons/sales.svg", name: "Закуски" },
-  { id: 5, image: "./public/icons/zak.svg", name: "Пицца" },
-  { id: 6, image: "./public/icons/salat.svg", name: "Акции" },
+  { id: 1, image: "./public/images/catItem.svg", name: "Салаты" },
+  { id: 2, image: "./public/images/burger.svg", name: "Напитки" },
+  { id: 3, image: "./public/images/pizza.svg", name: "Бургеры" },
+  { id: 4, image: "./public/images/sales.svg", name: "Закуски" },
+  { id: 5, image: "./public/images/zak.svg", name: "Пицца" },
+  { id: 6, image: "./public/images/salat.svg", name: "Акции" },
 ];
 
 const Categories = () => {
