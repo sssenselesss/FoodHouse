@@ -17,7 +17,7 @@ const MainBanner = () => {
 
         </div>
         <div className={styles.BannerRightSide}>
-          <img src="./public/staticImages/MainImg.png" alt="123"  className="image"/>
+          <img src="./src/assets/images/MainImg.png" alt="123"  className="image"/>
         </div>
       </div>
     </div>

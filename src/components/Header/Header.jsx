@@ -16,7 +16,7 @@ const Header = () =>{
 
           <div className={styles.cart}>
             <div className={styles.countCart}>12</div>
-            <img src="./public/images/cart-icon.svg" alt="" />
+            <img src="./src/assets/images/cart-icon.svg" alt="" />
           </div>
         </div>
       </header>
