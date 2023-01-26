@@ -4,7 +4,7 @@ const Header = () =>{
     <header className={styles.header}>
         <div className={styles.wrapper}>
           <div className={styles.logo}>
-            <img src="./public/images/FoodHouse.png" alt="" />
+            <img src="src/assets/images/FoodHouse.png" alt="" />
           </div>
 
           <ul className={styles.header_nav}>
