@@ -11,7 +11,7 @@ const MainBanner = () => {
           <span className={styles.title}>Быстро и вкусно<span className={styles.accent}>.</span></span>
           <span className={styles.subTitle}>Сеть быстрого питания #1 в Казани</span>
           <div className={styles.bannerBtn}>
-              <button className="button"> Сделать заказ</button>
+              <button className={styles.button}> Сделать заказ</button>
               <span className={styles.btnDiscription}>бесплатная доставка от 500 рублей</span>
           </div>
 
