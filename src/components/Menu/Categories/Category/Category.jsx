@@ -4,6 +4,7 @@ const Category = (props) =>{
     return (
      
         <div className={s.item}>
+       
           <img className={s.image} src={props.cat.image} alt="" />
           <span className={s.title}>{props.cat.name}</span>
         </div>
