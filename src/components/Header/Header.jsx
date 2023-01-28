@@ -1,10 +1,12 @@
 import styles from './Header.module.css'
+import Logo from './../../assets/images/FoodHouse.png'
+import Cart from '../../assets/images/cart-icon.svg'
 const Header = () =>{
     return (
     <header className={styles.header}>
         <div className={styles.wrapper}>
           <div className={styles.logo}>
-            <img src="src/assets/images/FoodHouse.png" alt="" />
+            <img src={Logo} alt="" />
           </div>
 
           <ul className={styles.header_nav}>
@@ -16,7 +18,7 @@ const Header = () =>{
 
           <div className={styles.cart}>
             <div className={styles.countCart}>12</div>
-            <img src="./src/assets/images/cart-icon.svg" alt="" />
+            <img src={Cart} alt="" />
           </div>
         </div>
       </header>

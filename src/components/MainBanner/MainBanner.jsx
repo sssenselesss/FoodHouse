@@ -1,5 +1,7 @@
 import styles from "./MainBanner.module.css";
 
+import Main from './../../assets/images/MainImg.png'
+
 const MainBanner = () => {
   return (
     <div className={styles.MainBanner}>
@@ -17,7 +19,7 @@ const MainBanner = () => {
 
         </div>
         <div className={styles.BannerRightSide}>
-          <img src="./src/assets/images/MainImg.png" alt="123"  className="image"/>
+          <img src={Main} alt="123"  className="image"/>
         </div>
       </div>
     </div>
