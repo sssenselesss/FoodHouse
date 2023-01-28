@@ -1,4 +1,13 @@
+
+
 import {CATEGORIES_TYPES} from './../types/types'
+import  Burger  from './../assets/images/burger.svg';
+import  Salat  from './../assets/images/salat.svg';
+import  Water  from './../assets/images/catItem.svg';
+import  Zak  from './../assets/images/zak.svg';
+import  Pizza  from './../assets/images/pizza.svg';
+import  Sales  from './../assets/images/sales.svg';
+
 
 export const initialState = [
     { id: 1,name: "Греческий салат",weith: 100,belki: 12,jiri: 12,ygl: 123,
@@ -39,33 +48,33 @@ export const initialState = [
   export const initialStateCat = [
     {
       id: 1,
-      image: "./src/assets/images/catItem.svg",
+      image: Salat ,
       name: "Салаты",
       type: "salats",
     },
     {
       id: 2,
-      image: "./src/assets/images/burger.svg",
+      image: Water,
       name: "Напитки",
       type: "water",
     },
     
     {
       id: 3,
-      image: "./src/assets/images/pizza.svg",
+      image: Burger,
       name: "Бургеры",
       type: "burgers",
     },
     {
       id: 4,
-      image: "./src/assets/images/sales.svg",
+      image: Zak,
       name: "Закуски",
       type: "zakus",
     },
-    { id: 5, image: "./src/assets/images/zak.svg", name: "Пицца", type: "pizza" },
+    { id: 5, image: Pizza, name: "Пицца", type: "pizza" },
     {
       id: 6,
-      image: "./src/assets/images/salat.svg",
+      image: Sales,
       name: "Акции",
       type: "sales",
     },

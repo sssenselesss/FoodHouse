@@ -22,3 +22,8 @@
 }image{
     margin-bottom: 12px;
 }
+.image:hover * {
+    fill: white;
+    color: white;
+    stroke: white;
+}
