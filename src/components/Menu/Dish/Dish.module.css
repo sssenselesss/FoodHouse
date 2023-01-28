@@ -72,3 +72,74 @@
     font-weight: 600;
     color: #E9F8FB;
 }
+@media (max-width:1250px){
+
+    .item {
+        width: 320px;
+        height: 320px;
+        border-radius: 16px;
+        position: relative;
+    }
+
+    .button {    
+        font-size: 24px;
+    } 
+    .title {
+        font-size: 24px;
+   
+    } 
+    .weight {
+        font-size: 16px;  
+    }  
+    .calories {
+        font-size: 12px;
+    
+    }
+}
+
+@media (max-width:1000px){
+    .item {
+        width: 260px;
+        height: 260px;
+        border-radius: 16px;
+        position: relative;
+    }
+
+    .button {    
+        font-size: 18px;
+    } 
+    .title {
+        font-size: 18px;
+   
+    } 
+    .weight {
+        font-size: 14px;  
+    }  
+    .calories {
+        font-size: 12px;
+    
+    }
+}
+@media (max-width:750px){
+    .item {
+        width: 200px;
+        height: 200px;
+        border-radius: 16px;
+        position: relative;
+    }
+
+    .button {    
+        font-size: 18px;
+    } 
+    .title {
+        font-size: 18px;
+   
+    } 
+    .weight {
+        font-size: 14px;  
+    }  
+    .calories {
+        font-size: 12px;
+    
+    }
+}

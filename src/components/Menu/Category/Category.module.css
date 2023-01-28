@@ -27,3 +27,45 @@
     color: white;
     stroke: white;
 }
+@media (max-width:1000px){
+    .item{
+        width: 220px;
+        height: 220px; 
+        font-size: 30px;      
+    }
+     
+}
+@media (max-width:1000px){
+    .item{
+        width: 180px;
+        height: 180px; 
+        font-size: 24px;      
+    }
+   
+    .image{
+       width:90px;
+       height: 90px;
+    }
+    .image:hover * {
+        fill: white;
+        color: white;
+        stroke: white;
+    }
+}
+@media (max-width:690px){
+    .item{
+        width: 140px;
+        height: 140px; 
+        font-size: 20px;      
+    }
+   
+    .image{
+       width:70px;
+       height: 70px;
+    }
+    .image:hover * {
+        fill: white;
+        color: white;
+        stroke: white;
+    }
+}

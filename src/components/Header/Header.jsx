@@ -6,7 +6,7 @@ const Header = () =>{
     <header className={styles.header}>
         <div className={styles.wrapper}>
           <div className={styles.logo}>
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="" className={styles.image}/>
           </div>
 
           <ul className={styles.header_nav}>
@@ -18,7 +18,7 @@ const Header = () =>{
 
           <div className={styles.cart}>
             <div className={styles.countCart}>12</div>
-            <img src={Cart} alt="" />
+            <img src={Cart} alt="" className={styles.CartSvg} />
           </div>
         </div>
       </header>
